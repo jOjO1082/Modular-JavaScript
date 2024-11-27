@@ -1,5 +1,6 @@
 function sayMyFood() {
   let food = "Beans";
+  let drink = "Berry juice"
   return food
 }
 
