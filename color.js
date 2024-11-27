@@ -3,4 +3,10 @@ function sayMyColor() {
   return color;
 }
 
-export default sayMyColor
+function sayMyBrand() { 
+  let brand = "Apple"
+  return brand;
+
+}
+
+export {sayMyBrand, sayMyColor}

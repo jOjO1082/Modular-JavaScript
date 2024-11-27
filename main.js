@@ -1,5 +1,5 @@
 // Create an arrow function
-import sayMyColor from "./color.js"
+import {sayMyBrand, sayMyBrand} from "./color.js"
 
 import sayMyCountry from "./country.js"
 
@@ -10,5 +10,6 @@ let color = sayMyColor()
 let pet = sayMyPet()
 let country = sayMyCountry()
 let food = sayMyFood()
+let brand = sayMyBrand()
 
 console.log(color, pet, country, food)
